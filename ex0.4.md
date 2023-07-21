@@ -11,7 +11,7 @@ sequenceDiagram
     activate server
     server--> browser: HTML document
     deactivate server
-    
+
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/css
     activate server
     server-->>browser: the css file
@@ -24,6 +24,6 @@ sequenceDiagram
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     activate server
-    server-->>browser: [{ content "hello" date: "2023-07-21T08:40:52.789Z" }, ... ]
+    server-->>browser: [{'one two three four', date: '2023-07-21T15:50:21.308Z'}, ... ]
     deactivate server
 
